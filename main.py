@@ -94,8 +94,6 @@ while playing:
 
     main_display.blit(player, player_rect)
 
-    print(len(enemies))
-
     pygame.display.flip()
 
     for enemy in enemies:
